@@ -12,20 +12,17 @@
         <title>TA start</title>
     </head>
     <body>
-        <h1>My TA labs</h1>
-        <p>My labs IP-11</p>
+        <p>Робота Вікторії Одерієвої, група ІР-11</p>
+        <h1>Landing page</h1>
+      
         <div>
-            <form action="lab1.jsp">
-
-                <input type="submit" value="lab1">
-
-            </form>
+            <a href="lab1.jsp">Lab 1</a>
+            <a href="lab2form.jsp">Lab 2</a>
+            <a href="lab_3.jsp">Lab 3</a>
+            <a href="lab4.jsp">Lab 4</a>
+            <a href="lab_5.jsp">Lab 5</a>
+            <a href="lab6_7.jsp">Lab 6-7</a>
+            <a href="lab_8.jsp">Lab 8</a>
         </div>
-        <div>
-            <form action="lab2form.jsp">
-                <input type="submit" value="lab2">
-            </form> 
-        </div>
-        <p><a href="<lab1.jsp">Alternative variant</a><p>"
     </body>
 </html>
