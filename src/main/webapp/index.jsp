@@ -9,23 +9,30 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>TA start</title>
+        <title>JSP Page</title>
     </head>
     <body>
-        <h1>My TA labs</h1>
-        <p>My labs IP-11</p>
+        <h1>Hello World!</h1>
+        <p>My labs IP-11 Oderiieva Vika</p>
         <div>
             <form action="lab1.jsp">
-
                 <input type="submit" value="lab1">
-
-            </form>
+            </form> 
         </div>
         <div>
             <form action="lab2form.jsp">
                 <input type="submit" value="lab2">
             </form> 
+        </div>  
+        <div>
+            <form action="lab4.jsp">
+                <input type="submit" value="lab4">
+            </form> 
+        </div>  
+        <div>
+            <form action="lab8.jsp">
+                <input type="submit" value="lab8">
+            </form> 
         </div>
-        <p><a href="<lab1.jsp">Alternative variant</a><p>"
     </body>
 </html>
