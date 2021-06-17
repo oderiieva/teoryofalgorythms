@@ -4,9 +4,17 @@
         <servlet-name>Lab5Servlet</servlet-name>
         <servlet-class>knu.fit.ist.ta.lab5.Lab5Servlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Servlet</servlet-name>
+        <servlet-class>Examination.Servlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Lab5Servlet</servlet-name>
         <url-pattern>/lab_5</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servlet</servlet-name>
+        <url-pattern>/exam</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

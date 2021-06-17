@@ -23,6 +23,7 @@
             <a href="lab_5.jsp">Lab 5</a>
             <a href="lab6_7.jsp">Lab 6-7</a>
             <a href="lab_8.jsp">Lab 8</a>
+            <a href="exam.jsp">Examination task of the student IP-11, Oderiieva Viktoriia</a>
         </div>
     </body>
 </html>

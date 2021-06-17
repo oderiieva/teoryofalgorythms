@@ -1,4 +1,6 @@
 package knu.fit.ist.ta;
+import Examination.CalculateExam;
+import Examination.Results;
 import knu.fit.ist.ta.lab3.Lab3;
 import knu.fit.ist.ta.lab5.Lab5_2;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -39,5 +41,19 @@ class OdeviiApplicationTests {
         assertEquals(-1, lab5.jumpSearch("test"));
         lab5.SortByStringField();
         assertEquals(7, lab5.jumpSearch("model #7"));
+    }
+    @Test
+    void testFormula()
+    {
+        assertEquals(0.5, CalculateExam.Calculate(2));
+    }
+
+    @Test
+    void testFormulaWithManyArgs()
+    {
+        Results fr = new Results();
+        double[] args = new double[]{12d, 7d, 3d};
+        fr.SetArgs(args);
+        assertEquals("[0.0967741935483871, 0.16216216216216217, 0.35294117647058826]", fr.Calculate());
     }
 }
